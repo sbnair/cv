@@ -1,0 +1,49 @@
+{
+  "__parent": "./config.json"
+, "person": {
+      "name": {
+          "first":  "Shailesh"
+        , "last":   "Nair"
+        , "full":   "@{./last} @{./first}"
+      }
+    , "nick":   "Shailesh"
+    , "abbr":   "shailesh"
+    , "email":  "shailamie@gmail.com"
+    , "url":    "http://bit.ly/cv"
+    , "bio": {
+          "birth":        "July &apos;82"
+        , "citizenship":  "Indian"
+        , "location": {
+              "country":  "India"
+            , "city":     "Kottayam"
+            , "full":     "@{./country}, @{./city}"
+            , "lat":      9.591750
+            , "lng":      76.531914
+          }
+      }
+    , "home": {
+          "pos-prefix": "full-stack"
+        , "pos-title":  "engineer"
+        , "pos-tags":   "#high #skilled #experienced #guru"
+      }
+    , "socials": {
+        "li": {
+            "name":   "linkedin"
+          , "title":  "Linkedin profile"
+          , "icon":   "fab fa-linkedin"
+          , "url":    "https://www.linkedin.com/in/shaileshbnair"
+        }
+      , "git": {
+            "name":   "git"
+          , "title":  "Github account"
+          , "icon":   "fab fa-github"
+          , "url":    "https://github.com/sbnair/"
+        }
+     
+      }
+    , "contacts": {
+          "cell":   "KzM4MCg2NykgNzgtemVyby0zMS0xOA=="
+        , "email":  "bWFpbHRvOnRiYWx0cnVzaGFpdGlzQGdtYWlsLmNvbQ=="
+      }
+  }
+}
